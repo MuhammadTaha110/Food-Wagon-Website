@@ -1,0 +1,1940 @@
+#Food Wagon Website CSS Code
+:root {
+    --font_color: #FFA833;
+    --div_colr: #FFA833;
+    --bg_colr: #ffffff;
+}
+ @font-face {
+    font-family: Source Serif pro;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: Source Serif Regular;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: Source Serif Bold;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+ }
+
+
+body{
+    width: 100%;
+}
+
+
+.header .logo {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.header .login_button {
+   margin-top: 10;
+   font-family: 'Source Serif Pro';
+   color: var(--font_color);
+   background-color: var(--bg_colr);
+   box-shadow: rgba(255,190,26,255) 0px 3px 8px;
+}
+
+.header .login_button:hover{
+    background-color: var(--font_color);
+    color: var(--bg_colr);
+}
+
+.header .search_span_1{
+    font-family: 'Source Serif Pro';
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header .search_span_2{
+    font-family: 'Source Serif Pro';
+    width: 15%;
+    margin-top: 10px;
+}
+
+
+.header .logo_div{
+    width: 20%;
+}
+
+.header .button_div{
+    width: 15%;
+}
+
+.header .search_span_1 .norm_span{
+    font-family: 'Source Serif Regular';
+}
+
+.header .search_span_1 .icon_color,
+.header .search_span_2 .icon_color{
+    color: var(--font_color);
+}
+
+.searchdiv{
+    background-image: url(imgs/Group\ 1\ 1.png);
+    width: 100%;
+    height: 420px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.searchheading{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.searchheading h1{
+    font-size: 55px;
+    font-family: Source Serif Pro;
+    color: #ffffff;
+}
+
+.searchheading p{
+    font-size: 15px;
+    font-family: Source Serif Regular;
+}
+
+.searchdiv_searchbar{
+    background-color: #ffffff;
+    width: 580px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 210px;
+    left: 95px;
+}
+
+.searchdiv_searchbar_innerdiv{
+    background-color: #fce4d4;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    color: #F17228;
+}
+
+.searchdiv_searchbar_innerdiv i{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.searchdiv_searchbar_innerdiv_pickup{
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    color: #757575;
+}
+
+.searchdiv_searchbar_innerdiv_pickup i{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar{
+    width: 380px;
+    height: 50px;
+    border-radius: 8px;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-family: Source Serif Regular;
+    font-size: 18px;
+    color: #757575;
+    background-color: #F5F5F5;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar i{
+    margin-left: 25px;
+    margin-top: 13px;
+    color: #FF7474;
+    font-size: 25px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_form{
+    background-color: #F5F5F5;
+    border: none;
+    position: absolute;
+    top: 5px;
+    width: 320px;
+    height: 40px;
+    left: 60px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar span{
+    margin-left: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button{
+    width: 150px;
+    height: 55px;
+    border-radius: 8px;
+    position: absolute;
+    top: 78px;
+    left: 420px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #757575;
+    background-image: linear-gradient(to right, #FF7A7A, #F65900);
+    border: none;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button i{
+    color: #F5F5F5;
+    font-size: 15px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button span{
+    margin-left: 10px;
+    color: #F5F5F5;
+}
+
+
+
+.searchimage img{
+    width: 470px;
+    height: 370px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -160px;
+}
+
+.cardDiv_img{
+    margin-top: 50px;
+    width: 230px;
+    height: 190px;
+    border-radius: 16px;
+    
+}
+
+.cardTittle{
+    margin-top: 15px;
+    font-family: Source Serif Pro;
+    font-weight: bolder; 
+}
+
+.cardDays{ 
+    background: #fce4d4;
+    text-align: center;
+    font-weight: 700;
+    color: #F17228;
+    width: 160px;
+    height: 28px;
+    border-radius: 5px;
+    
+}
+
+.cardDiv{
+   
+    width: 100%;
+    position: relative;
+   
+}
+
+.cardDivMain{
+    width: 100%;
+}
+
+.cardDivMain2{
+    width: 100%;
+    top: 150px;
+    position: static;
+}
+
+.cardDiv .sale_tag{
+    position: absolute;
+    top: 175px;
+    background-color: #FFA833;
+    height: 65px;
+    width: 100px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 16px;
+
+}
+
+.cardDiv .sale_tag .num{
+    color: #F5F5F5;
+    font-size: 50px;
+    font-family: Source Serif Regular;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.cardDiv .sale_tag .off{
+    font-family: Source Serif Regular;
+    
+    margin-top: -60px;
+    margin-left: 60px;
+    color: #F5F5F5;
+
+}
+
+.cardDiv .sale_tag .per{
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.cardDiv .sale_tag .off .offin{
+    font-size: 18px;
+    margin-top: -16px;
+}
+
+
+/*About Section*/
+
+.howWork{
+margin-top: 0px;
+height: 80px;
+position: relative;
+}
+
+.howWork .howWorkHeading{
+    font-family:Source Serif Pro;
+    text-align: center;
+    color:#F17228;
+    position: absolute;
+    top: 15px;
+    left: 360px;
+}
+
+.about{
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(180deg,#FFCE6738,#FDEDCA00);
+
+}
+
+.aboutDiv{
+    text-align: center;
+}
+
+.abooutTittle{
+    margin-top: -35px;
+    font-family: Source Serif Pro;
+    font-weight: bolder;
+}
+
+
+/*Popular Items section*/
+
+.popularItems .popularItemsHeading,
+.popularItems2 .popularItemsHeading2{
+    font-family:Source Serif Pro;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.cardLocation{
+    margin-top: -5px;
+    font-family: Source Serif Pro;
+    font-weight: bolder;
+    color: #FFA833; 
+}
+
+.cardTittlePrice{
+    margin-top: -5px;
+    font-family: Source Serif Bold;
+    font-weight: bolder; 
+}
+
+.cardDivMain3{
+    width: 100%;
+    top: 0px;
+    position: static;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.buttonDiv .orderNowBtn{
+    width: 95%;
+    height: 30px;
+    text-align: center;
+    font-family: Source Serif Pro;
+    color: #F5F5F5;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: #F17228;
+    border-radius: 3px;
+    position: relative;
+
+}
+
+.orderNowBtnTxt{
+    font-size:medium;
+    position: absolute;
+    top: 4px;
+    left: 60px;
+}
+
+.cardTittle2, .cardTittle3, .cardTittle4, .cardTittle5{
+    margin-top: 15px;
+    font-family: Source Serif Pro;
+    font-weight: bolder; 
+    margin-left: 60px;
+
+}
+
+.cardStar{
+    margin-top: -5px;
+    margin-left: 60px;
+    font-family: Source Serif Pro;
+    font-weight: bolder;
+    color: #FFA833; 
+}
+
+.outerDiv{
+    position: relative;
+}
+.resLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.openTomorrow{ 
+    background: #fce4d4;
+    text-align: center;
+    font-weight: 700;
+    color: #F17228;
+    width: 150px;
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 30px
+    
+}
+
+.openNow{ 
+    background: #79B93C33;
+    text-align: center;
+    font-weight: 700;
+    color: #79B93C;
+    width: 110px;
+    height: 28px;
+    border-radius: 5px;
+    margin-top: 30px
+    
+}
+.viwAllBtnDiv{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.viewAllBtn{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: auto;
+
+}
+
+.viewAllBtnTxt{
+    font-family: Source Serif Pro;
+    color: #F5F5F5;
+    position: absolute;
+    font-size: medium;
+    top: 9px;
+    left: 28px;
+}
+
+.buttonDiv2{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 120px;
+    position: relative;
+   
+}
+
+.buttonDiv2 .viewAllBtn{
+    
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-family: Source Serif Pro;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+    border-radius: 8px;
+    position: relative;
+}
+
+
+
+/*Featued Product Section*/
+.featuredItems{
+    margin-top: 50px;
+}
+
+.cardDivMainSBF1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.searchByFood img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.searchByFoodTxtDiv{
+    width: 50px;
+}
+
+.searchByFoodTxt{
+    font-family: Source Serif Pro;
+    text-align: center;
+}
+
+.searchByFoodTxt2{
+    margin-top: 20px;
+    font-family: Source Serif Pro;
+    text-align: left;
+}
+
+.cardDivMainSBF{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.searchByFoodTxt2{
+    font-family: Source Serif Pro;
+    text-align: left;
+}
+.searchByFoodTxt3OuterDiv{
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    position: absolute;
+    left: 800px;
+    border-radius: 50%;
+    background-color: #FFA833;
+}
+
+.searchByFoodTxt3OuterDiv2{
+    width: 50px;
+    height: 50px;
+    margin-right: auto;
+    position: absolute;
+    left: 740px;
+    border-radius: 50%;
+    background-color: #FFA833;
+}
+
+.searchByFoodTxt3{
+    font-family: Source Serif Pro;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: -8px;
+    width: 50px;
+    height: 50px;
+    color: black;
+    
+   
+}
+
+.arrows{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF9A0E;
+}
+
+.about2{
+    margin-top: 20px;
+    width: 1100px;
+    height: 350px;
+    background-color: #FEEFD0;
+    position: relative;
+    margin-left:-100px;
+
+
+}
+
+.about2 .dailyBonus{
+    display: flex;
+}
+
+.about2 .dailyBonus h4{
+    color: var(--font_color);
+    font-family: Source Serif Pro;
+    top: 40px;
+    left: 110px;
+    position: absolute;
+    background: -webkit-linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.about2 .dailyBonus img{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 120px;
+    height: 80px;
+}
+
+.about2 .dailyBonus .image2{
+    margin-top: 30px;
+    margin-left:100px;
+    width: 110px;
+    height: 80px;
+}
+
+.about2 .dailyBonus .head2 {
+    color: var(--font_color);
+    font-family: Source Serif Pro;
+    top: 40px;
+    left: 330px;
+    position: absolute;
+    background: -webkit-linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about2 .dailyBonus .image3{
+    margin-top: -100px;
+    margin-left:420px;
+    width: 110px;
+    height: 80px;
+}
+
+.about2 .dailyBonus .head3 {
+    color: var(--font_color);
+    font-family: Source Serif Pro;
+    top: 40px;
+    left: 520px;
+    position: absolute;
+    background: -webkit-linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*Install App Section*/
+
+.installApp{
+display: flex;
+position: relative;
+
+background-image: url(imgs/Background\ \(1\).png);
+width: 1100px;
+margin-left:-100px;
+
+    
+}
+
+.installApp2{
+   
+}
+
+.installApp2 h1{
+    font-family: Source Serif Pro;
+    color: var(--font_color);
+}
+
+.installApp2 p{
+    color: #757575;
+    font-family: Source Serif Regular;
+}
+
+.dailyBonus{
+    width: 650px;
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    box-shadow: 0px 14px 15px 0px #FFAE0003;
+    box-shadow: 0px 27px 82px 0px #FFAE0047;
+}
+
+.mobileImg img{
+    width: 400px;
+    height: 350px;
+    margin-top: -100px;
+    margin-left: 160px;
+}
+
+.installApp2{
+    top: 160px;
+    left: 30px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 550px;
+    
+}
+
+.imgDiv{
+    display: flex;
+}
+
+.imgDiv img{
+    margin-left: -30px;
+    width: 180px;
+    height: 100px;
+    z-index: 1;
+}
+
+.appBtn{
+    margin-top: 0px;
+    border: none;
+    width: 140px;
+    height: 50px;
+    background-color: #fce4d4;
+}
+
+.bottomBanner{
+    width: 100%;
+    position: relative;
+
+}
+
+.bottomBanner img{
+    margin-left:-100px;
+    width: 1100px;
+    height: 230px;
+}
+
+.bottomBannerHeading{
+    font-family: SOurce Serif Pro;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    color: #F5F5F5;
+}
+
+.proceedOrderBtn{
+    position: absolute;
+    top: 160px;
+    left: 380px;
+    background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%);
+}
+
+.proceedOrderBtnTxt{
+    color:#F5F5F5;
+    margin-top: 5px;
+}
+
+
+/*Best Deals Section*/
+
+.bestdeals {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+
+.bestdeals .bestdealcol1{
+    width: 35%;
+    height: 300px;
+
+}
+
+.bestdeals .bestdealcol1 h2{
+    font-family: Source Serif Pro;
+    color:#353535;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.bestdeals .bestdealcol1 p{
+    font-family: Source Serif Pro;
+    color:#616161B0;
+    margin-left: 30px;
+}
+
+.bestdeals .bestdealcol1 span{
+    color: var(--font_color);
+}
+
+.bestdeals .bestdealcol2{
+    width: 65%;
+    height: 300px;
+    
+}
+
+.bestdeals .bestdealcol2 img{
+    width: 100%;
+    height: 300px;
+
+} 
+
+.bestdeals .bestdealcol1 .proceedOrderBtn2{
+    width: 80%;
+    height: 45px;
+    text-align: center;
+    font-family: Source Serif Pro;
+    color: #F5F5F5;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color:#FF9A0E;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.bestdeals .bestdealcol1 .proceedOrderBtnTxt{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    width: 1100px;
+    margin-left: -100px;
+    margin-top: -50px;
+    background-color:#212121;
+    color: #F5F5F5;
+    position: relative;
+}
+
+footer a{
+    text-decoration: none;
+
+}
+
+footer .topCities{
+    margin-left: 8px;
+}
+
+
+
+footer .form input{
+background-color: #424242;
+border: none;
+}
+
+footer .form ::placeholder{
+    color: #ADADAD;
+}
+
+footer .subscribeBtn{
+    position: absolute;
+    top: 160px;
+}
+
+footer .footer2{
+    margin-left: 35px;
+}
+
+footer .topCitiesRow{
+    margin-left: 90px;
+}
+
+
+/*BreakPoints******************************
+****************************************************/
+@media (max-width:900px) {
+
+    .header .search_span_1 , .search_span_2{
+        display: none;
+    }
+
+    .header .login_button{
+        display: none;
+    }
+}
+
+@media (max-width:1100px) {
+
+
+
+    .header .login_button{
+        width: 120px;
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .searchimage img{
+        display: none;
+    }
+
+    .searchdiv{
+        position: static;
+        height: 280px;
+    }
+
+    .searchheading{
+        position: static;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .searchdiv_searchbar{
+        position: static;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+
+    .searchdiv_searchbar_innerdiv{
+        position: static;
+        margin-top: 20px;
+       
+    }
+
+    .searchdiv_searchbar_innerdiv_pickup{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar{
+        margin-top: 80px;
+        margin-left: -280px;
+        position: static;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar form{
+        margin-top: -30px;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar_form{
+       
+        position: static;
+        margin-left: 50px;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar_button{
+        position: static;
+        margin-top: 78px;
+    } 
+
+    .cardDivMain{
+        width: 950px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .cardDivMain2{
+        width: 100%;
+        position: absolute;
+        top: 1550px;
+    }
+
+    .popularItems .popularItemsHeading{
+        margin-top: 250px;
+    }
+
+  
+
+    
+}
+
+@media (max-width:800px){
+    body{
+        width: 100%;
+    }
+
+    .header{
+        width: 120%;
+    }
+
+    .header .search_span_1,
+    .header .search_span_2{
+        display: none;
+    }
+
+    .header .login_button{
+        margin-left: 280px;
+        margin-top: 10px;
+        width: 120px;
+    }
+
+    .cardDivMain{
+        width: 100%;
+    }
+
+    .about .howWork .howWorkHeading{
+        margin-left: -200px;
+    }
+
+    .cardDivMain3 .popularItems .popularItemsHeading{
+        margin-top: 280px;
+    }
+
+    .about2, .installApp{
+        display: none;
+    }
+
+    .bestdeals .bestdealcol1 button{
+        display: none;
+    }
+
+    .bottomBanner img{
+        width: 140%;
+    }
+
+    .bottomBanner .bottomBannerHeading{
+        left: 80px;
+    }
+
+    .bottomBanner button{
+        top: 150px;
+        left: 170px;
+        width: 40%;
+
+    }
+
+    footer{
+        width: 140%;
+    }
+
+    .footer2 .subscribeBtn{
+        width: 50%;
+        top: 680px;
+        left: 210px;
+    }
+}
+
+@media (max-width:620px){
+
+    body{
+        width: 620px;
+    }
+
+    .search_span_1,
+    .search_span_2{
+        display: none;
+    }
+    .searchheading h1{
+        font-size: 40px;
+    }
+
+    .button_div .login_button{
+        width: 100px;
+        margin-left: 250px;
+    }
+
+    .searchdiv_searchbar{
+        width: 90%;
+    }
+
+    .searchdiv_searchbar_innerdiv{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .searchdiv_searchbar_innerdiv_pickup{
+        width: 110px;
+        height: 25px;
+        font-size: 15px;
+        margin-left: -10px;
+        text-align: center;
+    }
+
+    
+
+    .searchdiv_searchbar_innerdiv_searchbar_button{
+        width: 120px;
+        margin-left: 0px;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar_form{
+        width: 180px;
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+
+    .searchdiv_searchbar_innerdiv_searchbar{
+        width: 250px;
+        margin-left: -210px;
+        margin-right: 10px;
+
+    }
+
+    .cardDivMain{
+        width: 100%;
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+     .cardDiv{
+       text-align: center;
+    }
+
+    .cardDays{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardDivMain2{
+        width: 100%;
+        position: absolute;
+        top: 2650px;
+    }
+
+    
+
+
+}
+
+@media (max-width:620px){
+
+    body{
+        width: 620px;
+    }
+
+    .cardDivMain2{
+        width: 100%;
+        position: absolute;
+        top: 2650px;
+    }
+
+    .cardDiv2{
+        top: 1250px;
+    }
+
+    .about{
+        margin-bottom: 250px;
+    }
+
+    .cardDivMain3 {
+        position:static;
+        margin-top: -200px;
+    }
+
+      .cardDivMain3 {
+        position:static;
+        margin-top: -200px;
+    }
+    
+    .howWork .howWorkHeading{
+        left: 170px;
+    }
+
+    .orderNowBtnTxt{
+        font-size:medium;
+        position: absolute;
+        top: 4px;
+        left: 75px;
+    }
+
+    .cardTittle2{
+        margin-left: -25px;
+    
+    }
+    
+    .cardStar{
+        margin-left: -65px;
+    }
+    
+    .cardTittle3{
+        margin-left: 0px;
+    }
+
+    .cardTittle4{
+        margin-left: -40px;
+    }
+
+    .cardTittle5{
+        margin-left: 40px;
+    }
+
+
+
+    /**********************************************/
+
+
+    .header .login_button {
+        margin-right: auto;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .searchdiv{
+        width: 100%;
+    }
+
+.searchdiv_searchbar{
+    left: 95px;
+}
+
+.searchdiv{
+    background-image: url(imgs/Group\ 1\ 1.png);
+    width: 100%;
+    height: 420px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.searchheading{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    
+}
+
+.searchheading h1{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 60px;
+
+}
+
+.searchheading p{
+    font-size: 15px;
+    font-family: Source Serif Regular;
+    margin-left: 60px;
+
+}
+
+.searchdiv_searchbar{
+    background-color: #ffffff;
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.searchdiv_searchbar_innerdiv{
+    background-color: #fce4d4;
+    width: 38%;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: Source Serif Pro;
+    font-size: 22px;
+    color: #F17228;
+}
+
+.searchdiv_searchbar_innerdiv i{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_pickup{
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: -10px;
+    left: 165px;
+    font-family: Source Serif Pro;
+    font-size: 22px;
+    color: #757575;
+}
+
+.searchdiv_searchbar_innerdiv_pickup i{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar{
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    position: absolute;
+    top: 5px;
+    left: 225px;
+    font-family: Source Serif Regular;
+    background-color: #F5F5F5;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar i{
+    margin-left: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_form{
+    background-color: #F5F5F5;
+    border: none;
+    position: absolute;
+    top: 15px;
+    width: 80%;
+    height: 40px;
+    left: -15px;
+}
+
+
+.searchdiv_searchbar_innerdiv_searchbar_button{
+    width: 80%;
+    height: 55px;
+    border-radius: 8px;
+    position: absolute;
+    top: 98px;
+    left: 30px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #757575;
+    background-image: linear-gradient(to right, #FF7A7A, #F65900);
+    border: none;
+}
+}
+
+@media(max-width:480px){
+    .header {
+        width: 50%;
+    }
+
+    .header .login_button {
+        margin-right: auto;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .searchdiv{
+        width: 100%;
+    }
+
+.searchdiv_searchbar{
+    left: 95px;
+}
+
+.searchdiv{
+    background-image: url(imgs/Group\ 1\ 1.png);
+    width: 100%;
+    height: 420px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.searchheading{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    
+}
+
+.searchheading h1{
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.searchheading p{
+    font-size: 12px;
+    font-family: Source Serif Regular;
+}
+
+.searchdiv_searchbar{
+    background-color: #ffffff;
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.searchdiv_searchbar_innerdiv{
+    background-color: #fce4d4;
+    width: 38%;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    color: #F17228;
+}
+
+.searchdiv_searchbar_innerdiv i{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_pickup{
+    width: 40%;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    top: -10px;
+    left: 135px;
+    font-family: Source Serif Pro;
+    font-size: 16px;
+    color: #757575;
+}
+
+.searchdiv_searchbar_innerdiv_pickup i{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar{
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    position: absolute;
+    top: 5px;
+    left: 225px;
+    font-family: Source Serif Regular;
+    background-color: #F5F5F5;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar i{
+    margin-left: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_form{
+    background-color: #F5F5F5;
+    border: none;
+    position: absolute;
+    top: 15px;
+    width: 80%;
+    height: 40px;
+    left: -15px;
+}
+
+
+.searchdiv_searchbar_innerdiv_searchbar_button{
+    width: 80%;
+    height: 55px;
+    border-radius: 8px;
+    position: absolute;
+    top: 98px;
+    left: 30px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #757575;
+    background-image: linear-gradient(to right, #FF7A7A, #F65900);
+    border: none;
+}
+
+
+/*Card Div*/
+
+.cardDiv .sale_tag{
+    left: 101px;
+}
+
+.cardDiv .sale_tag .num{
+    margin-left: -20px;
+}
+
+
+
+/*About Section*/
+
+    .howWork .howWorkHeading{
+        left: 115px;
+    }
+
+/*Popular Items section*/
+
+.popularItems .popularItemsHeading{
+    margin-top: 520px;
+}
+
+
+
+.buttonDiv .orderNowBtn{
+    width: 55%;
+}
+
+
+/*Featued Product Section*/
+
+.resLogo{
+    margin-left: 90px;
+}
+
+.openTomorrow{ 
+    margin-top: 18px;
+    margin-left: 90px;
+}
+
+.openNow{ 
+    margin-top: 18px;
+    margin-left: 90px;
+
+}
+
+
+.searchByFood img{
+    margin-left: 140px;
+}
+
+
+.searchByFoodTxt2{
+    margin-left: 130px;
+}
+
+.about2, .installApp, .installApp2{
+    display: none;
+}
+
+.bestdeals .bestdealcol1 p,
+.bestdeals .bestdealcol1 h2{
+    margin-left: 10px;
+}
+
+.bestdeals button{
+    display: none;
+}
+
+.bottomBanner{
+    display: none;
+}
+
+footer{
+    width: 123%;
+}
+
+.footer2 .form{
+    margin-left: 40px;
+    width: 90%;
+}
+
+.footer2  .subscribeBtn{
+    top: 680px;
+    width: 70%;
+    left: 120px;
+}
+
+}
+
+@media (max-width:360px){
+
+    .header {
+        width: 50px;
+    }
+
+    .header .login_button {
+       margin-left: 200px;
+       margin-top: 5px;
+     }
+
+    body{
+        width: 360px;
+    }
+
+    .searchdiv{
+        background-color: #FF7A7A;
+        width: 360px;
+    }
+
+    
+
+.searchheading h1{
+    font-size: 35px;
+    font-family: Source Serif Pro;
+    color: #ffffff;
+}
+
+.searchheading p{
+    font-size: 12px;
+    font-family: Source Serif Regular;
+}
+
+.searchdiv_searchbar{
+    background-color: #ffffff;
+    width: 280px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 140px;
+    left: 38px;
+}
+
+.searchdiv_searchbar_innerdiv{
+    background-color: #fce4d4;
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #F17228;
+}
+
+.searchdiv_searchbar_innerdiv i{
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+.searchdiv_searchbar_innerdiv_pickup{
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    position: absolute;
+    top: -8px;
+    left: 150px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #757575;
+}
+
+.searchdiv_searchbar_innerdiv_pickup i{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar{
+    width: 60px;
+    height: 50px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    font-family: Source Serif Regular;
+    font-size: 18px;
+    color: #757575;
+    background-color: #F5F5F5;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar i{
+    position: absolute;
+    left: 460px;
+    top:  -32px;
+    color: #FF7474;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_form{
+    background-color: #F5F5F5;
+    border: none;
+    position: absolute;
+    top: -15px;
+    width: 240px;
+    height: 40px;
+    left: 220px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar span{
+    margin-left: 10px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button{
+    width: 140px;
+    height: 35px;
+    border-radius: 8px;
+    position: absolute;
+    top: 28px;
+    left: 65px;
+    font-family: Source Serif Pro;
+    font-size: 18px;
+    color: #757575;
+    background-image: linear-gradient(to right, #FF7A7A, #F65900);
+    border: none;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button i{
+    color: #F5F5F5;
+    font-size: 15px;
+}
+
+.searchdiv_searchbar_innerdiv_searchbar_button span{
+    margin-left: 10px;
+    color: #F5F5F5;
+}
+
+/*Card Div*/
+
+.cardDivMain2{
+    width: 100%;
+    top: 150px;
+    position: static;
+}
+
+.cardDiv .sale_tag{
+    top: 176px;
+    left: 53px;
+}
+
+.cardDiv .sale_tag .num{
+    margin-left: -20px;
+}
+
+
+/*About Section*/
+
+
+    
+    .howWork .howWorkHeading{
+        left: 65px;
+        width: 200px;
+    }
+
+/*Popular Items section*/
+
+.popularItems .popularItemsHeading{
+    margin-top: 520px;
+}
+
+
+
+.buttonDiv .orderNowBtn{
+    width: 75%;
+}
+
+.orderNowBtnTxt{
+    left: 75px;
+}
+
+.popularItems2 .popularItemsHeading2{
+    margin-top: 50px;
+
+}
+
+/*Featued Product Section*/
+
+.resLogo{
+    margin-left: 30px;
+}
+
+.openTomorrow{ 
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.openNow{ 
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+
+.searchByFood img{
+    margin-left: 80px;
+}
+
+
+.searchByFoodTxt2{
+    margin-left: 70px;
+}
+
+/*Install App Section*/
+
+.dailyBonus{
+    height: 90px;
+    width: 320px;
+    background-color: white;
+    left: 100px;
+}
+
+.about2{
+    width: 430px;
+    height: 350px;
+}
+
+.about2 .dailyBonus h4{
+    font-size: 12px;
+    top: 30px;
+    left: 45px;
+}
+
+.about2 .dailyBonus img{
+    margin-top: 15px;
+    margin-left: -5px;
+    width: 70px;
+    height: 50px;
+}
+
+.about2 .dailyBonus .image2{
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 70px;
+    height: 50px;
+}
+
+.about2 .dailyBonus .head2 {
+    font-size: 12px;
+    top: 30px;
+    left: 155px;
+}
+
+.about2 .dailyBonus .image3{
+    margin-top: -60px;
+    margin-left: 202px;
+    width: 70px;
+    height: 50px;
+}
+
+.about2 .dailyBonus .head3 {
+    font-size: 12px;
+    top: 30px;
+    left: 252px;
+}
+
+
+.installApp{
+    display: flex;
+    width: 360px;
+    margin-left:-100px;       
+    }
+    
+    
+    .installApp2 h1{
+        font-size: 20px;
+
+    }
+    
+    .installApp2 p{
+        font-size: 15px;
+
+    }
+    
+    
+    .mobileImg img{
+        display: none;
+        position: absolute;
+    }
+    
+    .installApp2{
+        top: 160px;
+        left: 30px;
+        position: absolute;
+        margin-top: -350px;
+        margin-left: 75px;
+        
+    }
+    
+    
+    
+    .bottomBanner{
+        width: 360px;
+        position: relative;
+    
+    }
+    
+    .bottomBanner img{
+        margin-left:-12px;
+        width: 360px;
+        height: 180px;
+    }
+    
+    .bottomBannerHeading{
+        top: 50px;
+        left: 10px;
+        font-size: 25px;
+    }
+    
+    .proceedOrderBtn{
+        position: absolute;
+        top: 120px;
+        left: 70px;
+        width: 180px;
+        height: 40px;
+    }
+    
+    .proceedOrderBtnTxt{
+        margin-top: 2px;
+    }
+
+    /*Best Deals Section*/
+
+.bestdeals {
+    width: 320px;
+    height: 195px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bestdeals .bestdealcol1{
+    width: 45%;
+    height: 195px;
+}
+
+.bestdeals .bestdealcol1 h2{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.bestdeals .bestdealcol1 p{
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+
+.bestdeals .bestdealcol2{
+    width: 55%;
+    height: 300px;
+    
+}
+
+.bestdeals .bestdealcol2 img{
+    width: 100%;
+    height: 195px;
+
+} 
+
+.bestdeals .bestdealcol1 .proceedOrderBtn2{
+    width: 80%;
+    height: 35px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.bestdeals .bestdealcol1 .proceedOrderBtnTxt{
+    margin-top: -4px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+footer{
+    width: 450px;
+}
+
+
+footer .form input{
+    margin-left: 35px;
+    width: 300px;
+}
+
+
+
+footer .subscribeBtn{
+    top: 680px;
+    width: 300px;
+    left: 105px;
+}
+
+.copyrightDiv{
+    margin-left: 70px;
+}
+
+}
+
+
+
